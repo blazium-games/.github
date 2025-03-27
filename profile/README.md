@@ -44,6 +44,7 @@ Authority within the project will be earned by those who actively contribute and
 
 ## Where to Go From Here
 
+- Read about the [Features](https://blazium.app/features) to understand what Blazium offers and how it can enhance your workflow.
 - Use the [Web Editor](https://editor-nightly.blazium.app) to try the engine in your browser.
 - Visit the [Download Page](https://blazium.app/download) to access the latest version.
 - Explore our [Roadmaps](https://blazium.app/roadmaps) to learn about the project's direction and future updates.
