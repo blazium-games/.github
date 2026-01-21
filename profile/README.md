@@ -44,7 +44,6 @@ Authority within the project will be earned by those who actively contribute and
 
 ## Where to Go From Here
 
-- Use the [Web Editor](https://editor-nightly.blazium.app) to try the engine in your browser.
 - Visit the [Download Page](https://blazium.app/download) to access the latest version.
 - Explore our [Roadmaps](https://blazium.app/roadmaps) to learn about the project's direction and future updates.
 - Learn about the [Tool and services](https://blazium.app/dev-tools) we have made for the community.
