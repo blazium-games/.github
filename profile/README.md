@@ -48,7 +48,7 @@ Authority within the project will be earned by those who actively contribute and
 - Visit the [Download Page](https://blazium.app/download) to access the latest version.
 - Explore our [Roadmaps](https://blazium.app/roadmaps) to learn about the project's direction and future updates.
 - Learn about the [Tool and services](https://blazium.app/dev-tools) we have made for the community.
-- Join the [Discord Server](https://chat.blazium.app) to discuss issues, share your work and collaborate with others.
+- Join the [Discord Server](https://blazium.app/chat) to discuss issues, share your work and collaborate with others.
 - Check out the [Blog](https://blazium.app/blog) for the latest news about Blazium.
 
 <br>
