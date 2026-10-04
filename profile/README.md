@@ -1,65 +1,42 @@
-# [Blazium Engine](https://blazium.app/)
+# Blazium Games
 
 ![](https://raw.githubusercontent.com/blazium-engine/blazium-assets/refs/heads/main/Blazium%20Engine%20-%20Brand%20Kit/Logo%20%26%20Wordmark%20(horizontal)/PNG/Blazium_Logo_Black_Outline.png)
 
-Blazium is a fork of the [Godot Engine](https://godotengine.org), a free and open-source
-game engine designed for both 2D and 3D applications.
+Blazium Games builds two products. The [engine](https://blazium.app/) is a free, open-source game engine. The [platform](https://blazium.games) is where people play and publish. They are separate: a game on the platform does not have to be made with the engine.
 
-### Goals of the Project
-- **No Donations Policy:** Operate without accepting any form of donations.
-- **Merging Priority PRs:** Address high-priority pull requests from Godot that have been left unaddressed for extended periods.
-- **Game Services:** Provide essential services for game development, such as lobbies, leaderboards, and more.
-- **Game Development:** Implement games to test engine and services functionality.
-- **Platform Integration:** Develop modules to integrate and deploy games on platforms like Discord, Steam, and others.
-- **Console Integration:** Create modules to support shipping games on consoles such as Nintendo Switch, Xbox, and more.
-- **Backwards Compatibility:** Ensure full portability of projects when transitioning from Godot to Blazium by maintaining GDExtension compatibility.
+## The engine
 
-### Testing by Developing Games
+[Blazium](https://blazium.app/) is a fork of the [Godot Engine](https://godotengine.org) for 2D and 3D games and applications. It stays free and open source.
 
-Developing games is an excellent way to test and validate an engine, tooling, and integration with services.
-We fix any issues we encounter and add features that are missing, making the experience for developers and users alike better.
-With Hangman, our first small game, we added Discord export support, created a lobby service and its engine integration, and fixed a compatibility issue with Safari on iOS among many other things.
+The latest published release notes are [0.6.725](https://blazium.app/changelog?v=release_0.6.725). That release added an MCP server in the editor, the Autowork testing framework, a first-party Steam module, the Discord Social SDK, Microsoft GDK export, and real-time multiuser editing. It also added modules for CSV, ENV, and INI files, SQLite, JWT, Tiled maps, goal-oriented action planning, arbitrary-precision numbers, and experimental Luau. Download the current build from the [download page](https://blazium.app/download). Editor docs are at [docs.blazium.app](https://docs.blazium.app).
 
-### Tools and Services
+Desktop companions for the engine:
 
-An important aspect of Blazium is the tools and services we are developing for our multiplayer games.
-As we develop more multiplayer games, the types of services we offer, and their capabilities, become more significant.
-From turn based to real-time, we intend to support it all.
+- **Hub** installs editors, opens projects, and reads engine news.
+- **CLI** installs editors and projects, and deploys to Steam and itch.io.
+- **Crash reporter** collects crash reports from the engine and from Hub.
 
-### Vision
+## The platform
 
-Blazium aims to remain free, open-source, and easy to use while introducing quality-of-life
-improvements, optimizations, additional tools, and other enhancements missing from Godot.
-These changes will be driven by the community rather than corporate funding.
-The surrounding community aims to create a space where developers can receive support,
-share suggestions, and interact freely without feeling as though they are walking on eggshells.
+[Blazium Games](https://blazium.games) is the platform for playing and publishing games, applications, mods, and assets. It is operated by Divine Games, Inc.
 
-One of the main issues with the Godot project is that, while it started as a community-driven initiative, its top-down organizational
-structure has sidelined community contributions, leading many developers to feel pushed away. Despite this, the continued interest from the
-community is evident in the large number of open pull requests and unresolved issues.
+One account does both jobs. Turning on developer mode is accepting the developer terms. It is not an application that waits for a curator.
 
-Blazium seeks to address these issues with a transparent, open process for improving the engine.
-While our community is still in its early stages, we are committed to building trust through actions.
-Authority within the project will be earned by those who actively contribute and have a vested interest in its success.
+Players browse and search, keep a library, follow friends, write reviews, buy a license or donate to a free title, redeem a key, and download a build. A clean stable web build plays in the browser. The desktop app runs on Windows and Linux, and a game starts only when the signed-in player owns it.
 
-## Where to Go From Here
+Publishers host a store page for a game, application, tool, mod, plugin, or asset. They ship builds on stable, beta, dev, and custom channels. Players install only a file the virus scan marked clean. Crash reports, bug tickets, page analytics, and key pools sit on the same page. Earnings cash out through Stripe Connect.
 
-- Visit the [Download Page](https://blazium.app/download) to access the latest version.
-- Explore our [Roadmaps](https://blazium.app/roadmaps) to learn about the project's direction and future updates.
-- Learn about the [Tool and services](https://blazium.app/dev-tools) we have made for the community.
-- Join the [Discord Server](https://blazium.app/chat) to discuss issues, share your work and collaborate with others.
-- Check out the [Blog](https://blazium.app/blog) for the latest news about Blazium.
+Agents use two servers at [mcp.blazium.games](https://mcp.blazium.games). The developer server manages pages, builds, analytics, crashes, tickets, reviews, and keys. The player server searches the catalog, reads the library, and buys inside a spending limit set on the website. Blazium Games does not host a model.
 
-<br>
-We hope to exceed your expectations,<br>
+- Site: [blazium.games](https://blazium.games)
+- Docs: [docs.blazium.games](https://docs.blazium.games)
+- Status: [status.blazium.games](https://status.blazium.games)
 
-_The Blazium Team_
+## Where to go
 
-> P.S. From Bioblaze Payne
-> 
-> All ideologies, political viewpoints, and self-expression is allowed in the community so long as you remain civil.
-> We want open discussions and civil debates, without anyone having a fear of repercussions over their beliefs.
-> While striving to accept most things, going egregiously off topic or beyond societal norms to disrupt and disgust is not one of those things.
-> 
-> Everyone has a right to make games, and should be able to enjoy a community of others with a similar goal.
-> Remember, we are only human. None of us are perfect, but we can strive to be civil and enjoy ourselves in a shared space.
+- [Discord](https://blazium.app/chat) is the community space.
+- [Download the engine](https://blazium.app/download) and read the [blog](https://blazium.app/blog).
+- Engine news on [IndieDB](https://www.indiedb.com/engines/blazium-engine).
+- Follow [Blazium Games on X](https://x.com/BlaziumGames).
+- Source and issues live on [GitHub](https://github.com/blazium-games).
+- Platform support: [blazium.games/support](https://blazium.games/support).
