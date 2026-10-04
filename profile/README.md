@@ -39,4 +39,4 @@ Agents use two servers at [mcp.blazium.games](https://mcp.blazium.games). The de
 - Engine news on [IndieDB](https://www.indiedb.com/engines/blazium-engine).
 - Follow [Blazium Games on X](https://x.com/BlaziumGames).
 - Source and issues live on [GitHub](https://github.com/blazium-games).
-- Platform support: [blazium.games/support](https://blazium.games/support).
+- Report issues and get support [here](https://blazium.games/support).
